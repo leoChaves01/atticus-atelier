@@ -1,40 +1,100 @@
-# Atticus Atelier
+# Atticus Atelier 👔✨
 
-Loja virtual responsiva de alfaiataria contemporânea, desenvolvida com React, TypeScript e CSS.
+Uma loja virtual de moda masculina inspirada na alfaiataria contemporânea, desenvolvida com um design elegante, minimalista e responsivo.
 
-## Recursos
+---
 
-- Seleção de tamanho
-- Sacola de compras
-- Alteração de quantidade
-- Remoção de produtos
-- Subtotal automático
-- Cálculo para frete grátis
-- Itens salvos no navegador
-- Layout responsivo
+## 📸 Screenshot
 
-## Como executar no VS Code
+![Página inicial da Atticus Atelier](atticus-atelier/image.png)
 
-1. Extraia o arquivo ZIP.
-2. Abra a pasta no VS Code.
-3. Abra o terminal e instale as dependências:
+---
+
+## 🚀 Tecnologias utilizadas
+
+- React
+- TypeScript
+- Vite
+- CSS
+- Local Storage
+- Lucide React
+
+---
+
+## 🛍️ Funcionalidades
+
+- Catálogo de roupas
+- Página responsiva para celular e computador
+- Visualização dos detalhes dos produtos
+- Escolha do tamanho da peça
+- Adição de produtos à sacola
+- Alteração da quantidade dos produtos
+- Remoção de produtos da sacola
+- Cálculo automático do valor total
+- Carrinho salvo no navegador
+- Opções de pagamento por Pix, cartão e boleto
+
+> A cobrança real ainda precisa ser conectada a um gateway de pagamento.
+
+---
+
+## 💻 Como executar o projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/leoChaves01/atticus-atelier.git
+```
+
+Entre na pasta:
+
+```bash
+cd atticus-atelier
+```
+
+Instale as dependências:
 
 ```bash
 npm install
 ```
 
-4. Inicie o projeto:
+Inicie o projeto:
 
 ```bash
 npm run dev
 ```
 
-5. Abra o endereço mostrado no terminal.
+Abra no navegador:
 
-## Estrutura
+```text
+http://localhost:5173
+```
 
-- `src/App.tsx`: página e funcionalidades da loja
-- `src/styles.css`: design e responsividade
-- `public/images`: imagens dos produtos
+---
 
-Os nomes, preços e tamanhos dos produtos podem ser alterados no início do arquivo `src/App.tsx`.
+## 📦 Gerar versão de produção
+
+```bash
+npm run build
+```
+
+Os arquivos de produção serão criados na pasta `dist`.
+
+---
+
+## 🌐 Deploy
+
+O projeto pode ser publicado na Vercel utilizando:
+
+- Framework: `Vite`
+- Build Command: `npm run build`
+- Output Directory: `dist`
+- Install Command: `npm install`
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Leonardo Chaves**.
+
+[GitHub](https://github.com/leoChaves01)
